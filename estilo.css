@@ -35,16 +35,6 @@ body {
     border-right: 1px solid var(--cor-logo);
 }
 
-.coluna-direita h1 {
-    margin-bottom: 25px;
-}
-
-.coluna-direita {
-    flex-grow: 4;
-
-    background-color: var(--cor-coluna-direita);
-}
-
 .coluna-esquerda ul {
     list-style: none;
     padding: 0;
@@ -74,4 +64,87 @@ body {
 
 .coluna-esquerda a iconify-icon {
     margin-right: 10px;
+}
+
+/*Conteúdo página inicial e de sensores*/
+
+.coluna-direita {
+    flex-grow: 4;
+
+    background-color: var(--cor-coluna-direita);
+}
+
+.header {
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+}
+
+.header h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 1.2em;
+}
+
+.content {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.content h2 {
+    font-size: 25px;
+    color: var(--cor-logo);
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 20px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.sensor-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.sensor-list li {
+    font-size: 15px;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #acdbc4;
+}
+
+.footer {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+    position: fixed;
+    bottom: 0;
+}
+
+/* Estilo da tela de construção */
+
+.construction-container {
+    text-align: center;
+    padding: 40px;
+    border: 2px solid var(--cor-coluna-esquerda);
+    border-radius: 8px;
+}
+
+.construction-container h1 {
+    font-size: 50px;
+    color: var(--cor-logo);
+}
+
+.construction-container p {
+    font-size: 25px;
+    color: #000000;
 }
